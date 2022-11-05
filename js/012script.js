@@ -47,10 +47,31 @@
 // console.log(logg.slice(-5, -5));
 // console.log(logg.substr(6, 3));
 
-const num = 12.49;
+// const num = 12.49;
 
-console.log(Math.round(num));
+// console.log(Math.round(num));
 
-const test = "12.2px";
-console.log(parseInt(test));
-console.log(parseFloat(test));
+// const test = "12.2px";
+// console.log(parseInt(test));
+// console.log(parseFloat(test));
+
+let y = 1;
+let x = y;
+y = 2;
+console.log([] + 1 + 2);
+console.log("sdss");
+console.log(Number(2));
+console.log(alert("1"[0]));
+
+const a = [1,2,3];
+const b = [1,2,3];
+console.log(a==b);
+console.log(0 || "" || 0 || undefined || true || 3);
+console.log(!!( 1 && 2 ) == (1 && 2));
+console.log("Infinity");
+console.log(null || 0 && 2 || 4 );
+
+
+
+
+

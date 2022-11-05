@@ -63,4 +63,4 @@ const soldier = {
 };
 
 const john = Object.create(soldier);
-console.log(john.sayHello());
+john.sayHello();
